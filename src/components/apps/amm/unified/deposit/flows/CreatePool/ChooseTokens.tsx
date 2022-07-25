@@ -204,7 +204,7 @@ const ChooseTokens: React.FC<ChooseTokensProps> = ({ setStep, selectedTokens, we
 					<div className=" flex flex-row items-start gap-2 rounded-xl bg-gray-600 bg-opacity-50 p-2 text-gray-200">
 						<div className="font-sans text-2xl">&#x24D8;</div>
 						<div className="pt-1">
-							It's recommend that you provide new pools with at least $10,000 in initial funds. According to your balance
+							It's recommended that you provide new pools with at least $10,000 in initial funds. According to your balance
 						</div>
 					</div>
 				)}
