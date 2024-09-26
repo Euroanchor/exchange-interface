@@ -97,7 +97,7 @@ const DepositIntoPool: React.FC<DepositIntoPoolProps> = ({ selectedPool }) => {
 							</div>
 							<div className="mt-4 flex flex-col justify-between rounded-xl bg-darks-500 p-4 md:flex-row">
 								<div>
-									LP tokens recieved:{' '}
+									LP tokens received:{' '}
 									<span className="underline">
 										<DepositKPTCalculation pool={selectedPool} values={props.values} account={accountAddress} />
 									</span>
